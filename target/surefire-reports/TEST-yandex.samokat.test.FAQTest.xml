@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="yandex.samokat.test.FAQTest" time="29.581" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="yandex.samokat.test.FAQTest" time="31.209" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,12 +65,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testFirstQuestion" time="3.587"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testFourthQuestion" time="3.549"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testFifthQuestion" time="3.843"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testEighthQuestion" time="3.522"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testSeventhQuestion" time="3.794"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testThirdQuestion" time="3.759"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testSixthQuestion" time="3.499"/>
-  <testcase classname="yandex.samokat.test.FAQTest" name="testSecondQuestion" time="4.028"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testFirstQuestion" time="6.026"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testFourthQuestion" time="3.903"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testFifthQuestion" time="3.511"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testEighthQuestion" time="3.432"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testSeventhQuestion" time="3.812"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testThirdQuestion" time="3.358"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testSixthQuestion" time="3.833"/>
+  <testcase classname="yandex.samokat.test.FAQTest" name="testSecondQuestion" time="3.334"/>
 </testsuite>
