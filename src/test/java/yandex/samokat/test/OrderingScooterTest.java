@@ -80,4 +80,26 @@ public class OrderingScooterTest {
         assertThat(aboutPageRent.getNumberOrder(),containsString(expectTextOrderIsDone));
     }
 
+    @Test
+    public void orderingScooterViaMidlButton1() {
+        String expectTextOrderIsDone = "Номер заказа: ";
+
+        mainPageScreen.clickButtonMidlOrder();
+
+        whoIsTheScooterForPage.setCardRental("Евгений",
+                "Кармаков",
+                "Перово",
+                "Перово",
+                "+79992203388");
+        whoIsTheScooterForPage.clickButtonNext();
+
+        aboutPageRent.setCardAboutRent("5.06.2022",
+                4,
+                "black",
+                "Я умею кататься, я Женя.");
+        aboutPageRent.ordering();
+
+        assertThat(aboutPageRent.getNumberOrder(),containsString(expectTextOrderIsDone));
+    }
+
 }
